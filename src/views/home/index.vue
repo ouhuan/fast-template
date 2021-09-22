@@ -1,9 +1,10 @@
 <template>
-  <RouterView />
+  <div>home43423</div>
 </template>
 
 <script>
 export default {
-  name: 'App',
+  name: 'Home',
+  components: {},
 };
 </script>

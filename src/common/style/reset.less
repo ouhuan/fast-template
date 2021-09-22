@@ -1,0 +1,55 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1;
+  color: #303133;
+  background-color: #fff;
+}
+
+a {
+  color: @active-color;
+  text-decoration: none;
+
+  &:focus,
+  &:hover {
+    color: @active-color;
+    text-decoration: underline;
+  }
+}
+
+img {
+  vertical-align: middle;
+}
+
+
+/* Utils
+------------------------------ */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+
+/* Animation
+------------------------------ */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .5s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
