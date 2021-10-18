@@ -2,9 +2,7 @@ import { createApp } from 'vue';
 import App from '@/App.vue';
 import router, { setupRouter } from '@/router';
 import { setupStore } from '@/store';
-import { utils } from '@/common/index';
-
-console.log('VITE_BASIC_API', import.meta.env.VITE_BASIC_API);
+import utils from '@/common/index';
 
 async function setup() {
   const app = createApp(App);

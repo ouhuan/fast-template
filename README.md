@@ -1,4 +1,5 @@
 # proj
+vue3+pinia+vue-router+vite 快速构建模板
 
 ## Project setup
 ```

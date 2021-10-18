@@ -1,3 +1,4 @@
 import '@/common/style/index.less';
+import * as utils from '@/common/utils/index.js';
 
-export * as utils from '@/common/utils/index';
+export default utils;
